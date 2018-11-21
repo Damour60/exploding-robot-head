@@ -21,6 +21,8 @@ body {
 .robot {
   width: 320px;
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .robot-body {
@@ -49,16 +51,16 @@ body {
   left: 160px;
 }
 
-.robot:hover .robot-head-right{
-  top: -50px;
-  left: 170px;
+.robot:hover .robot-head-right {
+  top: -60px;
+  left: 180px;
 }
 
-.robot:hover .robot-head-left{
-  top: -50px;
-  left: 25px;
+.robot:hover .robot-head-left {
+  top: -60px;
+  left: 15px;
 }
 
-.robot:hover .robot-brain{
-  top: -10px;
+.robot:hover .robot-brain {
+  top: -20px;
 }
